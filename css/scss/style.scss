@@ -4190,694 +4190,1053 @@ footer.main-footer {
 /* ====================== Racing suit Page ====================== */
 
 .racing-suit-page {
-    background-color: $secondary-color;
-
-    // Racing suit Page - Hero Banner //
-
-    .hero-slider-section {
-        .splide {
-            .splide__slide {
-                min-height: 600px;
-
-                .g-container {
-                    max-width: 60vw;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-
-                    .grid-block {
-                        .grid-item {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: flex-start;
-
-                            h2 {
-                                margin: 0;
-                                margin-top: 10px;
-                                font-size: 26px;
-                            }
-                        }
-                    }
-                }
-
-                &.--slide-01 {
-                    background: url(../images/racing-suit-hero-slider.png) center center;
-                    background-size: cover;
-                }
-
-                &.--slide-02 {
-                    background: url(../images/racing-suit-hero-slider.png) center center;
-                    background-size: cover;
-                }
-
-                &.--slide-03 {
-                    background: url(../images/racing-suit-hero-slider.png) center center;
-                    background-size: cover;
-                }
-
-                h2,
-                img {
-                    position: relative;
-                    z-index: 2;
-                }
-
-                h2 {
-                    font-family: "Agency FB";
-                }
-
-                .btn-border {
-                    border: 1px solid #fff;
-                    width: auto;
-                    display: block;
-                    position: relative;
-                    z-index: 2;
-                    padding: 7px 4rem;
-                    border-radius: 5px;
-                    font-family: "Prachason";
-                    font-size: 16px;
-                    font-weight: normal;
-
-                    &:hover {
-                        background-color: $accent-color;
-                        color: #000;
-                    }
-                }
-
-                .overlay {
-                    display: block !important;
-                    max-width: 60%;
-                    transition: max-height 0.15s ease-out;
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                    left: 0;
-                    background: linear-gradient(270deg, rgba(22, 22, 22, 0) 0%, rgba(22, 22, 22, 1) 100%);
-                    transition: all height 0.5s ease-in-out;
-                }
-            }
-
-            .splide__arrows {
-                .splide__arrow {
-                    opacity: 1;
-                    background: transparent;
-
-                    .arrow-left {
-                        width: 100px;
-                    }
-
-                    &--prev {
-                        left: 13%;
-                    }
-
-                    &--next {
-                        right: 13%;
-                    }
-                }
-            }
-        }
-
-        @media (max-width: 991px) {
-            .splide {
-                .splide__slide {
-                    min-height: 320px;
-
-                    .g-container {
-                        max-width: 1160px;
-                    }
-
-                    &.--slide-01 {
-                        background: url(../images/racing-suit-hero-slider-mb-01.png) center center;
-                        background-size: cover;
-                    }
-
-                    &.--slide-02 {
-                        background: url(../images/racing-suit-hero-slider-mb-01.png) center center;
-                        background-size: cover;
-                    }
-
-                    &.--slide-03 {
-                        background: url(../images/racing-suit-hero-slider-mb-01.png) center center;
-                        background-size: cover;
-                    }
-                }
-
-                .splide__arrows {
-                    .splide__arrow {
-                        opacity: 1;
-                        background: transparent;
-
-                        .arrow-left {
-                            width: 100px;
-                        }
-
-                        &--prev {
-                            left: 13%;
-                        }
-
-                        &--next {
-                            right: 13%;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    // Racing suit Page - Hot Team //
-
-    .hot-team-section {
-        padding: 4rem 0;
-
-        .hot-team-block {
-            #hot-team-slider {
-                .splide__arrows {
-                    .splide__arrow--prev {
-                        left: -4rem;
-                        background-color: transparent;
-                    }
-
-                    .splide__arrow--next {
-                        right: -4rem;
-                        background-color: transparent;
-                    }
-                }
-
-                .splide__pagination {
-                    display: none;
-                }
-
-                .slider-hot-team {
-                    a {
-                        &:hover {
-                            .hot-team {
-                                .overlay {
-                                    max-height: 100%;
-                                    transition: max-height 0.25s ease-in;
-                                }
-
-                                h4.head-hot-team {
-                                    margin-bottom: 9rem;
-                                    color: $primary-color;
-                                }
-                            }
-                        }
-                    }
-
-                    .hot-team {
-                        min-height: 290px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: flex-end;
-                        transition: 0.5s;
-
-                        &.-hot-team-01 {
-                            background: url(../images/hot-team-01.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-hot-team-02 {
-                            background: url(../images/hot-team-02.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-hot-team-03 {
-                            background: url(../images/hot-team-03.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-hot-team-04 {
-                            background: url(../images/hot-team-04.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-hot-team-05 {
-                            background: url(../images/hot-team-05.png) center center;
-                            background-size: cover;
-                        }
-
-                        h4.head-hot-team {
-                            width: 100%;
-                            text-align: center;
-                            font-size: 20px;
-                            font-family: "Agency FB";
-                            font-weight: normal;
-                            z-index: 1;
-                            margin-bottom: 2rem;
-                            transition: 0.5s;
-                            text-transform: uppercase;
-                        }
-
-                        .overlay {
-                            max-height: 40%;
-                            transition: max-height 0.15s ease-out;
-                            height: 100%;
-                            position: absolute;
-                            bottom: 0;
-                            right: 0;
-                            left: 0;
-                            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-                            transition: all height 0.5s ease-in-out;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (max-width: 991px) {
-            padding: 2rem 0;
-
-            .hot-team-block {
-                .title-hot-team {
-                    text-align: center;
-                }
-
-                .grid-block {
-                    grid-template-columns: 1fr;
-                }
-            }
-        }
-    }
-
-    // Racing suit Page - Your Fav //
-
-    .your-fav-section {
-        padding: 5rem 0;
-        padding-bottom: 8rem;
-        background: url(../images/bg-your-fav.png) center center;
-        background-size: cover;
-
-        .your-fav-block {
-            h2,
-            h4 {
-                text-align: center;
-                margin: 5px 10px;
-            }
-
-            h2 {
-                color: $primary-color;
-            }
-
-            .grid-block {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-                gap: 20px;
-
-                .grid-item {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    .btn-border {
-                        width: 100px;
-                        display: block;
-                        border: 1px solid $accent-color;
-                        padding: 10px 2rem;
-                        border-radius: 5px;
-                        font-family: "Prachason";
-                        font-weight: normal;
-
-                        &:hover {
-                            background: transparent;
-                            border: 1px solid $primary-color;
-                            color: $primary-color;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (max-width: 991px) {
-            .your-fav-block {
-                .grid-block {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                }
-            }
-        }
-    }
-
-    // Racing suit Page - Shirt Premier Slider //
-
-    .shirt-premier-section {
-        padding-top: 4rem;
-
-        .shirt-premier-block {
-            .title-shirt-premier {
-                font-size: 26px;
-                margin-bottom: 1rem;
-            }
-
-            &.g-container {
-                #shirt-premier-slider {
-                    a {
-                        &:hover {
-                            .slider-shirt-premier {
-                                .overlay {
-                                    max-height: 100%;
-                                    transition: max-height 0.25s ease-in;
-                                }
-
-                                h5 {
-                                    margin-bottom: 7rem;
-                                    color: $primary-color;
-                                }
-                            }
-                        }
-                    }
-
-                    .slider-shirt-premier {
-                        min-height: 250px;
-                        display: flex;
-                        align-items: flex-end;
-
-                        &.-shirt-premier-01 {
-                            background: url(../images/shirt-01.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-shirt-premier-02 {
-                            background: url(../images/shirt-02.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-shirt-premier-03 {
-                            background: url(../images/shirt-03.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-shirt-premier-04 {
-                            background: url(../images/shirt-04.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-shirt-premier-05 {
-                            background: url(../images/shirt-05.png) center center;
-                            background-size: cover;
-                        }
-
-                        h5 {
-                            width: 100%;
-                            text-align: center;
-                            font-size: 26px;
-                            font-family: "Agency FB";
-                            z-index: 1;
-                            margin-bottom: 2rem;
-                            transition: 0.5s;
-                            text-transform: uppercase;
-                            font-weight: normal;
-                        }
-
-                        .overlay {
-                            max-height: 40%;
-                            transition: max-height 0.15s ease-out;
-                            height: 100%;
-                            position: absolute;
-                            bottom: 0;
-                            right: 0;
-                            left: 0;
-                            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-                            transition: all height 0.5s ease-in-out;
-                        }
-                    }
-
-                    .splide__arrows {
-                        position: relative;
-                        margin-top: 3rem;
-
-                        &.g-container {
-                            max-width: 1100px;
-
-                            .splide__arrow--prev {
-                                right: 4rem;
-                                left: unset;
-                                background-color: transparent;
-                            }
-
-                            .splide__arrow--next {
-                                background-color: transparent;
-                            }
-                        }
-                    }
-
-                    .splide__pagination {
-                        display: none;
-                    }
-                }
-            }
-
-            .read-more-block {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 1rem;
-
-                .btn-border {
-                    border: 1px solid #fff;
-                    width: auto;
-                    display: block;
-                    padding: 10px 3rem;
-                    border-radius: 5px;
-                    font-family: "Prachason";
-                    font-size: 16px;
-                    font-weight: normal;
-
-                    &:hover {
-                        background-color: $accent-color;
-                        color: #000;
-                    }
-                }
-            }
-        }
-
-        @media (max-width: 991px) {
-            padding: 0;
-
-            .shirt-premier-block {
-                padding-right: 0;
-
-                .title-shirt-premier {
-                    text-align: center;
-                }
-            }
-
-            #shirt-premier-slider {
-                .splide__arrows {
-                    display: none;
-                }
-            }
-        }
-    }
-
-    // Racing suit Page - Shirt Product //
-
-    .hot-product-section {
-        padding: 4rem 0;
-
-        .hot-product-block {
-            .grid-block {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                gap: 25px;
-
-                .featured-img-block {
-                    height: 270px;
-
-                    .badge {
-                        font-size: 14px;
-
-                        &.-r {
-                            margin-top: 2rem;
-                        }
-                    }
-                }
-            }
-        }
-
-        .read-more-block {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .btn-border {
-                display: block;
-                width: auto;
-                border: 1px solid $accent-color;
-                border-radius: 5px;
-                padding: 7px 3rem;
-                font-family: "Prachason";
-                font-size: 16px;
-
-                &:hover {
-                    background-color: $accent-color;
-                    color: #000;
-                }
-            }
-        }
-
-        @media (max-width: 991px) {
-            .hot-product-block {
-                .grid-block {
-                    grid-template-columns: 1fr 1fr;
-                }
-            }
-        }
-    }
-
-    // Racing suit Page - National Team Slider //
-
-    .national-team-section {
-        padding: 1rem 0;
-        padding-bottom: 7rem;
-
-        .national-team-block {
-            .title-national-team {
-                font-size: 26px;
-                margin-bottom: 1rem;
-            }
-
-            &.g-container {
-                #national-team-slider {
-                    a {
-                        &:hover {
-                            .slider-national-team {
-                                .overlay {
-                                    max-height: 100%;
-                                    transition: max-height 0.25s ease-in;
-                                }
-
-                                h5 {
-                                    margin-bottom: 7rem;
-                                    color: $primary-color;
-                                }
-                            }
-                        }
-                    }
-
-                    .slider-national-team {
-                        min-height: 250px;
-                        display: flex;
-                        align-items: flex-end;
-
-                        &.-national-team-01 {
-                            background: url(../images/national-team-01.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-national-team-02 {
-                            background: url(../images/national-team-02.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-national-team-03 {
-                            background: url(../images/national-team-03.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-national-team-04 {
-                            background: url(../images/national-team-04.png) center center;
-                            background-size: cover;
-                        }
-
-                        &.-national-team-05 {
-                            background: url(../images/national-team-05.png) center center;
-                            background-size: cover;
-                        }
-
-                        h5 {
-                            width: 100%;
-                            text-align: center;
-                            font-size: 26px;
-                            font-family: "Agency FB";
-                            z-index: 1;
-                            margin-bottom: 2rem;
-                            transition: 0.5s;
-                            text-transform: uppercase;
-                            font-weight: normal;
-                        }
-
-                        .overlay {
-                            max-height: 40%;
-                            transition: max-height 0.15s ease-out;
-                            height: 100%;
-                            position: absolute;
-                            bottom: 0;
-                            right: 0;
-                            left: 0;
-                            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-                            transition: all height 0.5s ease-in-out;
-                        }
-                    }
-
-                    .splide__arrows {
-                        position: relative;
-                        margin-top: 3rem;
-
-                        &.g-container {
-                            max-width: 1100px;
-
-                            .splide__arrow--prev {
-                                right: 4rem;
-                                left: unset;
-                                background-color: transparent;
-                            }
-
-                            .splide__arrow--next {
-                                background-color: transparent;
-                            }
-                        }
-                    }
-
-                    .splide__pagination {
-                        display: none;
-                    }
-                }
-            }
-
-            .read-more-block {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 1rem;
-
-                .btn-border {
-                    border: 1px solid #fff;
-                    width: auto;
-                    display: block;
-                    padding: 10px 3rem;
-                    border-radius: 5px;
-                    font-family: "Prachason";
-                    font-size: 16px;
-                    font-weight: normal;
-
-                    &:hover {
-                        background-color: $accent-color;
-                        color: #000;
-                    }
-                }
-            }
-        }
-
-        @media (max-width: 991px) {
-            padding: 0;
-
-            .national-team-block {
-                padding-right: 0;
-
-                .title-national-team {
-                    text-align: center;
-                }
-            }
-
-            #national-team-slider {
-                .splide__arrows {
-                    display: none;
-                }
-            }
-        }
-    }
+	background-color: #161616;
+	.hero-slider-section {
+		.splide {
+			.splide__slide {
+				min-height: 467px;
+				.g-container {
+					max-width: calc(100vw - 212px);
+					height: 100%;
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+					max-width: 1160px;
+					.grid-block {
+						.grid-item {
+							display: -webkit-box;
+							display: -ms-flexbox;
+							display: flex;
+							-webkit-box-orient: vertical;
+							-webkit-box-direction: normal;
+							-ms-flex-direction: column;
+							flex-direction: column;
+							-webkit-box-align: start;
+							-ms-flex-align: start;
+							align-items: flex-start;
+							h2 {
+								margin: 0;
+								margin-top: 10px;
+								font-size: 32px;
+							}
+						}
+					}
+				}
+				&.--slide-01 {
+					background: url(../images/racing-suit-hero-slider.png) center center;
+					background-size: cover;
+					background: url(../images/racing-suit-hero-slider-mb-01.png) center center;
+					background-size: cover;
+				}
+				&.--slide-02 {
+					background: url(../images/racing-suit-hero-slider.png) center center;
+					background-size: cover;
+					background: url(../images/racing-suit-hero-slider-mb-01.png) center center;
+					background-size: cover;
+				}
+				&.--slide-03 {
+					background: url(../images/racing-suit-hero-slider.png) center center;
+					background-size: cover;
+					background: url(../images/racing-suit-hero-slider-mb-01.png) center center;
+					background-size: cover;
+				}
+				h2 {
+					font-family: "Agency FB";
+				}
+				.btn-border {
+					border: 1px solid #fff;
+					width: auto;
+					display: block;
+					position: relative;
+					z-index: 2;
+					padding: 7px 4rem;
+					border-radius: 5px;
+					font-family: Prachason;
+					font-size: 16px;
+					font-weight: 400;
+					&:hover {
+						background-color: #fff;
+						color: #000;
+					}
+				}
+				.overlay {
+					display: none!important;
+					max-width: 60%;
+					-webkit-transition: max-height .15s ease-out;
+					transition: max-height .15s ease-out;
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					bottom: 0;
+					right: 0;
+					left: 0;
+					background: -webkit-gradient(linear, right top, left top, from(rgba(22, 22, 22, 0)), to(#161616));
+					background: linear-gradient(270deg, rgba(22, 22, 22, 0) 0, #161616 100%);
+					-webkit-transition: all height .5s ease-in-out;
+					transition: all height .5s ease-in-out;
+					display: block!important;
+				}
+			}
+			.splide__arrows {
+				.splide__arrow {
+					opacity: 1;
+					background: 0 0;
+					opacity: 1;
+					background: 0 0;
+					.arrow-left {
+						width: 100px;
+						width: 100px;
+					}
+				}
+				.splide__arrow--prev {
+					left: 13%;
+					left: 13%;
+				}
+				.splide__arrow--next {
+					right: 13%;
+					right: 13%;
+				}
+			}
+		}
+	}
+	.hot-team-section {
+		.hot-team-block {
+			#hot-team-slider {
+				.splide__arrows {
+					.splide__arrow--prev {
+						left: -4rem;
+						background-color: transparent;
+					}
+					.splide__arrow--next {
+						right: -4rem;
+						background-color: transparent;
+					}
+				}
+				.splide__pagination {
+					display: none;
+				}
+				.slider-hot-team {
+					a {
+						&:hover {
+							.hot-team {
+								.overlay {
+									max-height: 100%;
+									-webkit-transition: max-height .25s ease-in;
+									transition: max-height .25s ease-in;
+								}
+								h4 {
+									&.head-hot-team {
+										margin-bottom: 9rem;
+										color: #ffbe00;
+									}
+								}
+							}
+						}
+					}
+					.hot-team {
+						min-height: 290px;
+						display: -webkit-box;
+						display: -ms-flexbox;
+						display: flex;
+						-webkit-box-pack: center;
+						-ms-flex-pack: center;
+						justify-content: center;
+						-webkit-box-align: end;
+						-ms-flex-align: end;
+						align-items: flex-end;
+						-webkit-transition: .5s;
+						transition: .5s;
+						&.-hot-team-01 {
+							background: url(../images/hot-team-01.png) center center;
+							background-size: cover;
+						}
+						&.-hot-team-02 {
+							background: url(../images/hot-team-02.png) center center;
+							background-size: cover;
+						}
+						&.-hot-team-03 {
+							background: url(../images/hot-team-03.png) center center;
+							background-size: cover;
+						}
+						&.-hot-team-04 {
+							background: url(../images/hot-team-04.png) center center;
+							background-size: cover;
+						}
+						&.-hot-team-05 {
+							background: url(../images/hot-team-05.png) center center;
+							background-size: cover;
+						}
+						h4 {
+							&.head-hot-team {
+								width: 100%;
+								text-align: center;
+								font-size: 20px;
+								font-family: "Agency FB";
+								font-weight: 400;
+								z-index: 1;
+								margin-bottom: 2rem;
+								-webkit-transition: .5s;
+								transition: .5s;
+								text-transform: uppercase;
+							}
+						}
+						.overlay {
+							max-height: 40%;
+							-webkit-transition: max-height .15s ease-out;
+							transition: max-height .15s ease-out;
+							height: 100%;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							left: 0;
+							background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+							background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%);
+							-webkit-transition: all height .5s ease-in-out;
+							transition: all height .5s ease-in-out;
+						}
+					}
+				}
+			}
+			.title-hot-team {
+				text-align: center;
+			}
+			.grid-block {
+				-ms-grid-columns: 1fr;
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+	.collection-section {
+		padding: 4rem 0 148px;
+		padding: 2rem 0;
+		.collection-block {
+			.grid-block {
+				display: -ms-grid;
+				display: grid;
+				-ms-grid-columns: 1fr 1fr 1fr;
+				grid-template-columns: 1fr 1fr 1fr;
+				gap: 25px;
+				-ms-grid-columns: 1fr;
+				grid-template-columns: 1fr;
+				.grid-item {
+					position: relative;
+					a {
+						&:hover {
+							.collection {
+								.overlay {
+									max-height: 100%;
+									-webkit-transition: max-height .25s ease-in;
+									transition: max-height .25s ease-in;
+								}
+								h4 {
+									&.head-collection {
+										margin-bottom: 10rem;
+										color: #ffbe00;
+									}
+								}
+							}
+						}
+					}
+					.collection {
+						min-height: 278px;
+						display: -webkit-box;
+						display: -ms-flexbox;
+						display: flex;
+						-webkit-box-pack: center;
+						-ms-flex-pack: center;
+						justify-content: center;
+						-webkit-box-align: end;
+						-ms-flex-align: end;
+						align-items: flex-end;
+						-webkit-transition: .5s;
+						transition: .5s;
+						&.-phantom-gt {
+							background: url(../images/nike-uniform.png) center center;
+							background-size: cover;
+						}
+						&.-mercurial {
+							background: url(../images/adidas-uniform.png) center center;
+							background-size: cover;
+						}
+						&.-nemeziz {
+							background: url(../images/puma-uniform.png) center center;
+							background-size: cover;
+						}
+						h4 {
+							&.head-collection {
+								width: 100%;
+								text-align: center;
+								font-size: 26px;
+								font-family: "Agency FB";
+								z-index: 1;
+								margin-bottom: 2rem;
+								-webkit-transition: .5s;
+								transition: .5s;
+								text-transform: uppercase;
+								font-weight: 400;
+							}
+						}
+						.overlay {
+							max-height: 40%;
+							-webkit-transition: max-height .15s ease-out;
+							transition: max-height .15s ease-out;
+							height: 100%;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							left: 0;
+							background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+							background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%);
+							-webkit-transition: all height .5s ease-in-out;
+							transition: all height .5s ease-in-out;
+						}
+					}
+				}
+			}
+			.title-collection {
+				text-align: center;
+			}
+		}
+	}
+	.your-fav-section {
+		.your-fav-heading {
+			padding-top: 126px;
+			padding-bottom: 16px;
+			padding-top: 63px;
+			h2 {
+				font-weight: 500;
+				font-size: 26px;
+				color: #ffbe00;
+				font-size: 22px;
+			}
+			h4 {
+				font-weight: 400;
+				font-size: 21px;
+				font-size: 20px;
+			}
+		}
+		.your-fav-block {
+			h3 {
+				font-size: 24px;
+				font-weight: 600;
+				color: #ffbe00;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				text-align: center;
+				line-height: 1.25;
+				margin-top: 19px;
+			}
+			.grid-block {
+				display: -ms-grid;
+				display: grid;
+				-ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+				grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+				gap: 20px;
+				.grid-item {
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-pack: center;
+					-ms-flex-pack: center;
+					justify-content: center;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+					flex-direction: column;
+				}
+			}
+			&.g-container {
+				#your-fav-slider {
+					a {
+						&:hover {
+							.slider-shirt-premier {
+								.overlay {
+									max-height: 100%;
+									-webkit-transition: max-height .25s ease-in;
+									transition: max-height .25s ease-in;
+								}
+								h5 {
+									margin-bottom: 7rem;
+									color: #ffbe00;
+								}
+							}
+						}
+					}
+					.slider-shirt-premier {
+						min-height: 270px;
+						display: -webkit-box;
+						display: -ms-flexbox;
+						display: flex;
+						-webkit-box-align: end;
+						-ms-flex-align: end;
+						align-items: flex-end;
+						border-radius: 5px;
+						&.-shirt-premier-01 {
+							background: url(../images/premier-league.svg) center center;
+						}
+						&.-shirt-premier-02 {
+							background: url(../images/european-league.svg) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-03 {
+							background: url(../images/toyota-thai-league.svg) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-04 {
+							background: url(../images/national-footbal-team.svg) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-05 {
+							background: url(../images/thailand-team.svg) center center;
+							background-size: cover;
+						}
+						h5 {
+							width: 100%;
+							text-align: center;
+							font-size: 26px;
+							font-family: "Agency FB";
+							z-index: 1;
+							margin-bottom: 2rem;
+							-webkit-transition: .5s;
+							transition: .5s;
+							text-transform: uppercase;
+							font-weight: 400;
+						}
+						.overlay {
+							max-height: 40%;
+							-webkit-transition: max-height .15s ease-out;
+							transition: max-height .15s ease-out;
+							height: 100%;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							left: 0;
+							background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+							background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%);
+							-webkit-transition: all height .5s ease-in-out;
+							transition: all height .5s ease-in-out;
+						}
+					}
+					.splide__arrows {
+						display: none;
+						&.g-container {
+							max-width: 1100px;
+							.splide__arrow--prev {
+								right: 4rem;
+								left: unset;
+								background-color: transparent;
+							}
+							.splide__arrow--next {
+								background-color: transparent;
+							}
+						}
+					}
+					.splide__pagination {
+						display: none;
+					}
+				}
+			}
+		}
+		.your-fav-bg {
+			padding: 25px 0 60px;
+		}
+	}
+	.title-collection {
+		font-size: 26px;
+		font-weight: 500;
+		margin-bottom: 25px;
+	}
+	.shirt-premier-section {
+		.shirt-premier-block {
+			padding-right: 0;
+			&.g-container {
+				max-width: 100%;
+				padding: 0;
+				&.test {
+					max-width: 1160px;
+				}
+				#shirt-premier-slider {
+					a {
+						&:hover {
+							.slider-shirt-premier {
+								.overlay {
+									max-height: 100%;
+									-webkit-transition: max-height .25s ease-in;
+									transition: max-height .25s ease-in;
+								}
+								h5 {
+									margin-bottom: 7rem;
+									color: #ffbe00;
+								}
+							}
+						}
+					}
+					.slider-shirt-premier {
+						min-height: 278px;
+						display: -webkit-box;
+						display: -ms-flexbox;
+						display: flex;
+						-webkit-box-align: end;
+						-ms-flex-align: end;
+						align-items: flex-end;
+						&.-shirt-premier-01 {
+							background: url(../images/shirt-01.png) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-02 {
+							background: url(../images/shirt-02.png) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-03 {
+							background: url(../images/shirt-03.png) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-04 {
+							background: url(../images/shirt-04.png) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-05 {
+							background: url(../images/shirt-05.png) center center;
+							background-size: cover;
+						}
+						h5 {
+							width: 100%;
+							text-align: center;
+							font-size: 26px;
+							font-family: "Agency FB";
+							z-index: 1;
+							margin-bottom: 2rem;
+							-webkit-transition: .5s;
+							transition: .5s;
+							text-transform: uppercase;
+							font-weight: 400;
+						}
+						.overlay {
+							max-height: 40%;
+							-webkit-transition: max-height .15s ease-out;
+							transition: max-height .15s ease-out;
+							height: 100%;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							left: 0;
+							background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+							background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%);
+							-webkit-transition: all height .5s ease-in-out;
+							transition: all height .5s ease-in-out;
+						}
+					}
+					.splide__arrows {
+						position: relative;
+						margin-top: 3rem;
+						&.g-container {
+							max-width: 1100px;
+							.splide__arrow--prev {
+								right: 4rem;
+								left: unset;
+								background-color: transparent;
+							}
+							.splide__arrow--next {
+								background-color: transparent;
+							}
+						}
+					}
+					.splide__pagination {
+						display: none;
+					}
+				}
+				#brand-slider {
+					a {
+						&:hover {
+							.slider-shirt-premier {
+								.overlay {
+									max-height: 100%;
+									-webkit-transition: max-height .25s ease-in;
+									transition: max-height .25s ease-in;
+								}
+								h5 {
+									margin-bottom: 7rem;
+									color: #ffbe00;
+								}
+							}
+						}
+					}
+					.slider-shirt-premier {
+						min-height: 278px;
+						display: -webkit-box;
+						display: -ms-flexbox;
+						display: flex;
+						-webkit-box-align: end;
+						-ms-flex-align: end;
+						align-items: flex-end;
+						&.-shirt-premier-01 {
+							background: url(../images/nike-uniform.png) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-02 {
+							background: url(../images/adidas-uniform.png) center center;
+							background-size: cover;
+						}
+						&.-shirt-premier-03 {
+							background: url(../images/puma-uniform.png) center center;
+							background-size: cover;
+						}
+						h5 {
+							width: 100%;
+							text-align: center;
+							font-size: 26px;
+							font-family: "Agency FB";
+							z-index: 1;
+							margin-bottom: 2rem;
+							-webkit-transition: .5s;
+							transition: .5s;
+							text-transform: uppercase;
+							font-weight: 400;
+						}
+						.overlay {
+							max-height: 40%;
+							-webkit-transition: max-height .15s ease-out;
+							transition: max-height .15s ease-out;
+							height: 100%;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							left: 0;
+							background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+							background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%);
+							-webkit-transition: all height .5s ease-in-out;
+							transition: all height .5s ease-in-out;
+						}
+					}
+					.splide__arrows {
+						position: relative;
+						margin-top: 3rem;
+						&.g-container {
+							max-width: 1100px;
+							.splide__arrow--prev {
+								right: 4rem;
+								left: unset;
+								background-color: transparent;
+							}
+							.splide__arrow--next {
+								background-color: transparent;
+							}
+						}
+					}
+					.splide__pagination {
+						display: none;
+					}
+				}
+			}
+			& > .title-brand {
+				max-width: 1160px;
+				margin: 20px auto 30px;
+				font-size: 26px;
+				font-weight: 500;
+				text-align: center;
+				margin-top: 107px;
+				font-size: 24px;
+			}
+			.title-shirt-premier {
+				font-size: 26px;
+				margin-bottom: 1rem;
+				text-align: center;
+			}
+			.read-more-block {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+				margin-top: 1rem;
+				.btn-border {
+					border: 1px solid #fff;
+					width: auto;
+					display: block;
+					padding: 10px 3rem;
+					border-radius: 5px;
+					font-family: Prachason;
+					font-size: 16px;
+					font-weight: 400;
+					&:hover {
+						background-color: #fff;
+						color: #000;
+					}
+				}
+			}
+			&.brand-block {
+				& > .title-brand {
+					margin-top: 58px;
+				}
+			}
+		}
+	}
+	#shirt-premier-slider {
+		.splide__slide {
+			width: 370px!important;
+			height: 278px!important;
+		}
+	}
+	#brand-slider {
+		.splide__slide {
+			width: 370px!important;
+			height: 278px!important;
+		}
+	}
+	#your-fav-slider {
+		.splide__slide {
+			width: 210px!important;
+			height: 345px!important;
+		}
+	}
+	.hot-product-section {
+		.hot-product-block {
+			.grid-block {
+				display: -ms-grid;
+				display: grid;
+				-ms-grid-columns: 1fr 1fr 1fr 1fr;
+				grid-template-columns: 1fr 1fr 1fr 1fr;
+				gap: 25px;
+				.featured-img-block {
+					height: 270px;
+					.badge {
+						font-size: 14px;
+						&.-r {
+							margin-top: 2rem;
+						}
+					}
+				}
+			}
+		}
+		.read-more-block {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			.btn-border {
+				display: block;
+				width: auto;
+				border: 1px solid #fff;
+				border-radius: 5px;
+				padding: 7px 3rem;
+				font-family: Prachason;
+				font-size: 16px;
+				margin-top: 63px;
+				font-weight: 400;
+				&:hover {
+					background-color: #fff;
+					color: #000;
+				}
+			}
+		}
+		.post-items {
+			&.-card {
+				.featured-img-block {
+					height: 270px;
+					width: 270px;
+				}
+			}
+		}
+	}
+	.title-hot-product {
+		margin-bottom: 26px;
+		font-weight: 500;
+		font-size: 26px;
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 0 0 34px;
+	}
+	.national-team-section {
+		padding: 0;
+		.national-team-block {
+			padding-right: 0;
+			.title-national-team {
+				font-size: 26px;
+				margin-bottom: 1rem;
+				text-align: center;
+			}
+			&.g-container {
+				#national-team-slider {
+					a {
+						&:hover {
+							.slider-national-team {
+								.overlay {
+									max-height: 100%;
+									-webkit-transition: max-height .25s ease-in;
+									transition: max-height .25s ease-in;
+								}
+								h5 {
+									margin-bottom: 7rem;
+									color: #ffbe00;
+								}
+							}
+						}
+					}
+					.slider-national-team {
+						min-height: 250px;
+						display: -webkit-box;
+						display: -ms-flexbox;
+						display: flex;
+						-webkit-box-align: end;
+						-ms-flex-align: end;
+						align-items: flex-end;
+						&.-national-team-01 {
+							background: url(../images/national-team-01.png) center center;
+							background-size: cover;
+						}
+						&.-national-team-02 {
+							background: url(../images/national-team-02.png) center center;
+							background-size: cover;
+						}
+						&.-national-team-03 {
+							background: url(../images/national-team-03.png) center center;
+							background-size: cover;
+						}
+						&.-national-team-04 {
+							background: url(../images/national-team-04.png) center center;
+							background-size: cover;
+						}
+						&.-national-team-05 {
+							background: url(../images/national-team-05.png) center center;
+							background-size: cover;
+						}
+						h5 {
+							width: 100%;
+							text-align: center;
+							font-size: 26px;
+							font-family: "Agency FB";
+							z-index: 1;
+							margin-bottom: 2rem;
+							-webkit-transition: .5s;
+							transition: .5s;
+							text-transform: uppercase;
+							font-weight: 400;
+						}
+						.overlay {
+							max-height: 40%;
+							-webkit-transition: max-height .15s ease-out;
+							transition: max-height .15s ease-out;
+							height: 100%;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							left: 0;
+							background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
+							background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%);
+							-webkit-transition: all height .5s ease-in-out;
+							transition: all height .5s ease-in-out;
+						}
+					}
+					.splide__arrows {
+						position: relative;
+						margin-top: 3rem;
+						&.g-container {
+							max-width: 1100px;
+							.splide__arrow--prev {
+								right: 4rem;
+								left: unset;
+								background-color: transparent;
+							}
+							.splide__arrow--next {
+								background-color: transparent;
+							}
+						}
+					}
+					.splide__pagination {
+						display: none;
+					}
+				}
+			}
+			.read-more-block {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+				margin-top: 1rem;
+				.btn-border {
+					border: 1px solid #fff;
+					width: auto;
+					display: block;
+					padding: 10px 3rem;
+					border-radius: 5px;
+					font-family: Prachason;
+					font-size: 16px;
+					font-weight: 400;
+					&:hover {
+						background-color: #fff;
+						color: #000;
+					}
+				}
+			}
+		}
+		#national-team-slider {
+			.splide__arrows {
+				display: none;
+			}
+		}
+	}
+	.show-product-section {
+		padding-top: 4rem;
+		padding-top: 0;
+		.show-product-block {
+			.grid-block {
+				display: -ms-grid;
+				display: grid;
+				-ms-grid-columns: 1fr 1fr 1fr 1fr;
+				grid-template-columns: 1fr 1fr 1fr 1fr;
+				gap: 25px;
+				-ms-grid-columns: 1fr 1fr;
+				grid-template-columns: 1fr 1fr;
+				gap: 19px;
+			}
+		}
+		.read-more-block {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			.btn-border {
+				width: auto;
+				padding: 10px 3rem;
+				border: 1px solid #fff;
+				border-radius: 5px;
+				font-family: Prachason;
+				font-weight: 400;
+				margin-top: 40px;
+				font-size: 16px;
+				&:hover {
+					background-color: #fff;
+					color: #000;
+				}
+			}
+		}
+	}
+	.post-items {
+		&.-card {
+			.compare-block {
+				display: none;
+			}
+			.title-item {
+				.title {
+					margin-bottom: -10px;
+				}
+			}
+		}
+	}
+	#football-shoes-slider-list {
+		.splide__slide {
+			padding: 0 40px;
+		}
+	}
 }
+.racing-suit-page .hero-slider-section .splide .splide__slide h2, .racing-suit-page .hero-slider-section .splide .splide__slide img {
+	position: relative;
+	z-index: 2;
+}
+@media {
+	(max-width {
+		&:991px) {
+			.racing-suit-page .hero-slider-section .splide .splide__slide {
+    min-height: 311px;
+			.racing-suit-page .hot-team-section {
+    padding: 2rem 0;
+			.racing-suit-page .your-fav-section .your-fav-block.g-container {
+    padding: 0;
+			.racing-suit-page .shirt-premier-section {
+    padding: 0;
+			.racing-suit-page .hot-product-section .hot-product-block .grid-block {
+    -ms-grid-columns: 1fr 1fr;
+			grid-template-columns: 1fr 1fr;
+			.racing-suit-page .main-content {
+    padding-bottom: 60px;
+		}
+	}
+}
+}.racing-suit-page {
+	.hot-team-section {
+		padding: 4rem 0;
+	}
+	.your-fav-section {
+		.your-fav-bg {
+			padding: 59px 0 155px;
+			background: url(../images/bg-your-fav-new.png) bottom;
+			background-size: cover;
+		}
+	}
+	.shirt-premier-section {
+		padding-top: 6px;
+	}
+	.hot-product-section {
+		padding: 0 0 4rem;
+		margin-top: -42px;
+	}
+	.national-team-section {
+		padding: 1rem 0;
+		padding-bottom: 7rem;
+	}
+}
+.racing-suit-page .your-fav-section .your-fav-heading h2, .racing-suit-page .your-fav-section .your-fav-heading h4 {
+	text-align: center;
+	margin: 5px 10px;
+}
+, .racing-suit-page .shirt-premier-section #brand-slider .splide__arrows, .racing-suit-page .shirt-premier-section #shirt-premier-slider .splide__arrows, .racing-suit-page .your-fav-section #your-fav-slider .splide__arrows {
+	display: none;
+}
+.d-md-none {
+	display: none!important;
+	display: block!important;
+}
+.post-items {
+	&.-card {
+		.title-item {
+			.category {
+				font-size: 14px;
+			}
+			.title {
+				font-size: 16px;
+			}
+		}
+		.content-item {
+			.price-block {
+				.price {
+					font-size: 14px;
+				}
+			}
+		}
+		.featured-img-block {
+			max-height: 187px;
+		}
+	}
+}
+.g-container {
+	padding: 0 10px;
+}
+.d-sm-none {
+	display: none!important;
+}
+
 
 /* ====================== Football Equipment Page ====================== */
 
