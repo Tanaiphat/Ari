@@ -679,7 +679,7 @@ class Header extends HTMLElement {
                             <a href="#"><img src="images/acc-icon.svg" alt="Account Icon"></a>
                             <div id="dd-unlogin">
                                 <div class="lr-block">
-                                    <a href="/login.htm" class="btn-global">เข้าสู่ระบบ</a>
+                                    <a href="/login.html" class="btn-global">เข้าสู่ระบบ</a>
                                     <p class="desc-lr">หรือสมัครสมาชิกเพื่อรับ<br/>ส่วนลดและสิทธิพิเศษจากเรา</p>
                                     <a href="/register.html" class="btn-reg">สมัครสมาชิก</a>
                                 </div>
