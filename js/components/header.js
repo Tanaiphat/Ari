@@ -15,7 +15,7 @@ class Header extends HTMLElement {
                 <div class="dt-col -menu">
                     <ul class="nav">
                         <li id="dd-boots" class="main-dd">
-                            <a href="#">รองเท้าฟุตบอล</a>
+                            <a href="/football-shoes.html">รองเท้าฟุตบอล</a>
                             <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
@@ -30,66 +30,66 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Nike</h5>
-                                                                    <li><a href="#">Mercurial</a></li>
-                                                                    <li><a href="#">Phantom GT</a></li>
-                                                                    <li><a href="#">Phantom Vision</a></li>
-                                                                    <li><a href="#">Phantom Venom</a></li>
-                                                                    <li><a href="#">Tiempo</a></li>
-                                                                    <li><a href="#">Mercurial</a></li>
-                                                                    <li><a href="#">Phantom GT</a></li>
-                                                                    <li><a href="#">Phantom Vision</a></li>
-                                                                    <li><a href="#">Phantom Venom</a></li>
-                                                                    <li><a href="#">Tiempo</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">Nike</a></h5>
+                                                                    <li><a href="/products-detail-boots.html">Mercurial</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Phantom GT</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Phantom Vision</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Phantom Venom</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Tiempo</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Mercurial</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Phantom GT</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Phantom Vision</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Phantom Venom</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Tiempo</a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Adidas</h5>
-                                                                    <li><a href="#">Predator x</a></li>
-                                                                    <li><a href="#">X</a></li>
-                                                                    <li><a href="#">Nemeziz</a></li>
-                                                                    <li><a href="#">Nemeziz Messi</a></li>
-                                                                    <li><a href="#">Copa</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">Adidas</a></h5>
+                                                                    <li><a href="/products-detail-boots.html">Predator x</a></li>
+                                                                    <li><a href="/products-detail-boots.html">X</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Nemeziz</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Nemeziz Messi</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Copa</a></li>
                                                                 </ul>
                                                                 <ul class="sub-football">
-                                                                    <h5>New Balance</h5>
-                                                                    <li><a href="#">Audazo</a></li>
-                                                                    <li><a href="#">Furon</a></li>
-                                                                    <li><a href="#">Tekela</a></li>
-                                                                    <li><a href="#">Nemeziz Messi</a></li>
-                                                                    <li><a href="#">Copa</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-grid-item">
-                                                                <ul class="sub-football">
-                                                                    <h5>Puma</h5>
-                                                                    <li><a href="#">Future</a></li>
-                                                                    <li><a href="#">Ultra</a></li>
-                                                                    <li><a href="#">One</a></li>
-                                                                    <li><a href="#">King</a></li>
-                                                                </ul>
-                                                                <ul class="sub-football">
-                                                                    <h5>Diarora</h5>
-                                                                    <li><a href="#">B-Elite</a></li>
-                                                                    <li><a href="#">Brasil</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">New Balance</a></h5>
+                                                                    <li><a href="/products-detail-boots.html">Audazo</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Furon</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Tekela</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Nemeziz Messi</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Copa</a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Mizuno</h5>
-                                                                    <li><a href="#">Rebula</a></li>
-                                                                    <li><a href="#">Morelia</a></li>
-                                                                    <li><a href="#">Morelia Neo</a></li>
-                                                                    <li><a href="#">Wave Cup</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">Puma</a></h5>
+                                                                    <li><a href="/products-detail-boots.html">Future</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Ultra</a></li>
+                                                                    <li><a href="/products-detail-boots.html">One</a></li>
+                                                                    <li><a href="/products-detail-boots.html">King</a></li>
                                                                 </ul>
                                                                 <ul class="sub-football">
-                                                                    <h5>Puma</h5>
-                                                                    <li><a href="#">Medusae</a></li>
-                                                                    <li><a href="#">Speciali</a></li>
-                                                                    <li><a href="#">Tocco</a></li>
-                                                                    <li><a href="#">UX</a></li>
-                                                                    <li><a href="#">Velocita</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">Diarora</a></h5>
+                                                                    <li><a href="/products-detail-boots.html">B-Elite</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Brasil</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="sub-grid-item">
+                                                                <ul class="sub-football">
+                                                                    <h5><a href="/product-categories-boots.html">Mizuno</a></h5>
+                                                                    <li><a href="/products-detail-boots.html">Rebula</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Morelia</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Morelia Neo</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Wave Cup</a></li>
+                                                                </ul>
+                                                                <ul class="sub-football">
+                                                                    <h5><a href="/product-categories-boots.html">Puma</a></h5>
+                                                                    <li><a href="/products-detail-boots.html">Medusae</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Speciali</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Tocco</a></li>
+                                                                    <li><a href="/products-detail-boots.html">UX</a></li>
+                                                                    <li><a href="/products-detail-boots.html">Velocita</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -115,7 +115,7 @@ class Header extends HTMLElement {
                                 </div>
                         </li>
                         <li id="dd-keepers" class="main-dd">
-                            <a href="#">อุปกรณ์ผู้รักษาประตู</a>
+                            <a href="/goalkeeper-device.html">อุปกรณ์ผู้รักษาประตู</a>
                             <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
@@ -130,33 +130,33 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Nike</h5>
-                                                                    <li><a href="#">Day break</a></li>
-                                                                    <li><a href="#">GRIP3</a></li>
-                                                                    <li><a href="#">Black X Chile Red</a></li>
-                                                                    <li><a href="#">Mercurial</a></li>
-                                                                    <li><a href="#">Phantom Fire</a></li>
-                                                                    <li><a href="#">Neighbourhood</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">Nike</a></h5>
+                                                                    <li><a href="/products-detail-keeper.html">Day break</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">GRIP3</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Black X Chile Red</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Mercurial</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Phantom Fire</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Neighbourhood</a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Adidas</h5>
-                                                                    <li><a href="#">Inflight x</a></li>
-                                                                    <li><a href="#">PREDATOR</a></li>
-                                                                    <li><a href="#">Dark Motion</a></li>
-                                                                    <li><a href="#">Encryption Pack</a></li>
-                                                                    <li><a href="#">Glory Hunter</a></li>
-                                                                    <li><a href="#">Precision To Blur</a></li>
-                                                                    <li><a href="#">Uniforia</a></li>
-                                                                    <li><a href="#">Dark Motion</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">Adidas</a></h5>
+                                                                    <li><a href="/products-detail-keeper.html">Inflight x</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">PREDATOR</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Dark Motion</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Encryption Pack</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Glory Hunter</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Precision To Blur</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Uniforia</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">Dark Motion</a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>ADV</h5>
-                                                                    <li><a href="#">SHOCKWAVE</a></li>
-                                                                    <li><a href="#">TIGRIS</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">ADV</a></h5>
+                                                                    <li><a href="/products-detail-keeper.html">SHOCKWAVE</a></li>
+                                                                    <li><a href="/products-detail-keeper.html">TIGRIS</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -174,7 +174,7 @@ class Header extends HTMLElement {
                                 </div>
                           </li>
                           <li id="dd-jerseys" class="main-dd">
-                            <a href="#">ชุดแข่ง</a>
+                            <a href="/racing-suit.html">ชุดแข่ง</a>
                             <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
@@ -193,7 +193,7 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>พรีเมียร์ลีค</h5>
+                                                                    <h5><a href="/product-categories-boots.html">พรีเมียร์ลีค</a></h5>
                                                                     <li><a href="#">Liverpool</a></li>
                                                                     <li><a href="#">Manchester City</a></li>
                                                                     <li><a href="#">Manchester United</a></li>
@@ -243,7 +243,7 @@ class Header extends HTMLElement {
                                 </div>
                             </li>
                             <li id="dd-equipments" class="main-dd">
-                                <a href="#">อุปกรณ์ฟุตบอล</a>
+                                <a href="/football-equipment.html">อุปกรณ์ฟุตบอล</a>
                                 <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
@@ -258,12 +258,12 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>อุปกรณ์ฟุตบอล</h5>
-                                                                    <li><a href="#">สนับแข้ง</a></li>
-                                                                    <li><a href="#">ลูกฟุตบอล</a></li>
-                                                                    <li><a href="#">กระเป๋า</a></li>
-                                                                    <li><a href="#">เชือกรองเท้า</a></li>
-                                                                    <li><a href="#">อื่นๆ</a></li>
+                                                                    <h5><a href="/product-categories-boots.html">อุปกรณ์ฟุตบอล</a></h5>
+                                                                    <li><a href="/products-detail-equipments.html">สนับแข้ง</a></li>
+                                                                    <li><a href="/products-detail-equipments.html">ลูกฟุตบอล</a></li>
+                                                                    <li><a href="/products-detail-equipments.html">กระเป๋า</a></li>
+                                                                    <li><a href="/products-detail-equipments.html">เชือกรองเท้า</a></li>
+                                                                    <li><a href="/products-detail-equipments.html">อื่นๆ</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -308,7 +308,7 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>เสื้อ</h5>
+                                                                    <h5><a href="/product-categories-boots.html">เสื้อ</a></h5>
                                                                     <li><a href="#">เสื้อยืด</a></li>
                                                                     <li><a href="#">เสื้อโปโล</a></li>
                                                                     <li><a href="#">เสื้อฝึกซ้อม</a></li>
@@ -358,7 +358,7 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>เสื้อ</h5>
+                                                                    <h5><a href="/product-categories-boots.html">เสื้อ</a></h5>
                                                                     <li><a href="#">เสื้อยืด</a></li>
                                                                     <li><a href="#">เสื้อโปโล</a></li>
                                                                     <li><a href="#">เสื้อฝึกซ้อม</a></li>
@@ -425,9 +425,9 @@ class Header extends HTMLElement {
                             <a href="#" class="acc-btn"><img src="images/acc-icon.svg" alt="Account Icon"></a>
                             <div id="dd-unlogin">
                                 <div class="lr-block">
-                                    <a href="#" class="btn-global">เข้าสู่ระบบ</a>
+                                    <a href="/login.html" class="btn-global">เข้าสู่ระบบ</a>
                                     <p class="desc-lr">หรือสมัครสมาชิกเพื่อรับ<br/>ส่วนลดและสิทธิพิเศษจากเรา</p>
-                                    <a href="#" class="btn-reg">สมัครสมาชิก</a>
+                                    <a href="/register.html" class="btn-reg">สมัครสมาชิก</a>
                                 </div>
                             </div>
                         </li>
@@ -643,9 +643,9 @@ class Header extends HTMLElement {
 
                         <div id="dd-unlogin">
                             <div class="lr-block">
-                                <a href="#" class="btn-global">เข้าสู่ระบบ</a>
+                                <a href="/login.htm" class="btn-global">เข้าสู่ระบบ</a>
                                 <p class="desc-lr">หรือสมัครสมาชิกเพื่อรับ<br/>ส่วนลดและสิทธิพิเศษจากเรา</p>
-                                <a href="#" class="btn-reg">สมัครสมาชิก</a>
+                                <a href="/register.html" class="btn-reg">สมัครสมาชิก</a>
                             </div>
                         </div>
                         </ul>
@@ -679,9 +679,9 @@ class Header extends HTMLElement {
                             <a href="#"><img src="images/acc-icon.svg" alt="Account Icon"></a>
                             <div id="dd-unlogin">
                                 <div class="lr-block">
-                                    <a href="#" class="btn-global">เข้าสู่ระบบ</a>
+                                    <a href="/login.htm" class="btn-global">เข้าสู่ระบบ</a>
                                     <p class="desc-lr">หรือสมัครสมาชิกเพื่อรับ<br/>ส่วนลดและสิทธิพิเศษจากเรา</p>
-                                    <a href="#" class="btn-reg">สมัครสมาชิก</a>
+                                    <a href="/register.html" class="btn-reg">สมัครสมาชิก</a>
                                 </div>
                             </div>
                         </li>
@@ -710,7 +710,7 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Nike</h5>
+                                                                    <h5><a href="/product-categories-boots.html">Nike</a></h5>
                                                                     <li><a href="#">Mercurial</a></li>
                                                                     <li><a href="#">Phantom GT</a></li>
                                                                     <li><a href="#">Phantom Vision</a></li>
@@ -725,7 +725,7 @@ class Header extends HTMLElement {
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Adidas</h5>
+                                                                    <h5><a href="/product-categories-boots.html">Adidas</a></h5>
                                                                     <li><a href="#">Predator x</a></li>
                                                                     <li><a href="#">X</a></li>
                                                                     <li><a href="#">Nemeziz</a></li>
@@ -733,7 +733,7 @@ class Header extends HTMLElement {
                                                                     <li><a href="#">Copa</a></li>
                                                                 </ul>
                                                                 <ul class="sub-football">
-                                                                    <h5>New Balance</h5>
+                                                                    <h5><a href="/product-categories-boots.html">New Balance</a></h5>
                                                                     <li><a href="#">Audazo</a></li>
                                                                     <li><a href="#">Furon</a></li>
                                                                     <li><a href="#">Tekela</a></li>
@@ -743,28 +743,28 @@ class Header extends HTMLElement {
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Puma</h5>
+                                                                    <h5><a href="/product-categories-boots.html">Puma</a></h5>
                                                                     <li><a href="#">Future</a></li>
                                                                     <li><a href="#">Ultra</a></li>
                                                                     <li><a href="#">One</a></li>
                                                                     <li><a href="#">King</a></li>
                                                                 </ul>
                                                                 <ul class="sub-football">
-                                                                    <h5>Diarora</h5>
+                                                                    <h5><a href="/product-categories-boots.html">Diarora</a></h5>
                                                                     <li><a href="#">B-Elite</a></li>
                                                                     <li><a href="#">Brasil</a></li>
                                                                 </ul>
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Mizuno</h5>
+                                                                    <h5><a href="/product-categories-boots.html">Mizuno</a></h5>
                                                                     <li><a href="#">Rebula</a></li>
                                                                     <li><a href="#">Morelia</a></li>
                                                                     <li><a href="#">Morelia Neo</a></li>
                                                                     <li><a href="#">Wave Cup</a></li>
                                                                 </ul>
                                                                 <ul class="sub-football">
-                                                                    <h5>Puma</h5>
+                                                                    <h5><a href="/product-categories-boots.html">Puma</a></h5>
                                                                     <li><a href="#">Medusae</a></li>
                                                                     <li><a href="#">Speciali</a></li>
                                                                     <li><a href="#">Tocco</a></li>
@@ -810,7 +810,7 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Nike</h5>
+                                                                    <h5><a href="/product-categories-boots.html">Nike</a></h5>
                                                                     <li><a href="#">Day break</a></li>
                                                                     <li><a href="#">GRIP3</a></li>
                                                                     <li><a href="#">Black X Chile Red</a></li>
@@ -821,7 +821,7 @@ class Header extends HTMLElement {
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>Adidas</h5>
+                                                                    <h5><a href="/product-categories-boots.html">Adidas</a></h5>
                                                                     <li><a href="#">Inflight x</a></li>
                                                                     <li><a href="#">PREDATOR</a></li>
                                                                     <li><a href="#">Dark Motion</a></li>
@@ -834,7 +834,7 @@ class Header extends HTMLElement {
                                                             </div>
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>ADV</h5>
+                                                                    <h5><a href="/product-categories-boots.html">ADV</a></h5>
                                                                     <li><a href="#">SHOCKWAVE</a></li>
                                                                     <li><a href="#">TIGRIS</a></li>
                                                                 </ul>
@@ -938,7 +938,7 @@ class Header extends HTMLElement {
                                                         <div class="sub-grid-block">
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
-                                                                    <h5>อุปกรณ์ฟุตบอล</h5>
+                                                                    <h5><a href="/product-categories-boots.html">อุปกรณ์ฟุตบอล</a></h5>
                                                                     <li><a href="#">สนับแข้ง</a></li>
                                                                     <li><a href="#">ลูกฟุตบอล</a></li>
                                                                     <li><a href="#">กระเป๋า</a></li>
@@ -989,11 +989,11 @@ class Header extends HTMLElement {
                                                             <div class="sub-grid-item">
                                                                 <ul class="sub-football">
                                                                     <h5>เสื้อ</h5>
-                                                                    <li><a href="#">เสื้อยืด</a></li>
-                                                                    <li><a href="#">เสื้อโปโล</a></li>
-                                                                    <li><a href="#">เสื้อฝึกซ้อม</a></li>
-                                                                    <li><a href="#">เสื้อฮู้ด</a></li>
-                                                                    <li><a href="#">แจ็คเก็ต</a></li>
+                                                                    <li><a href="/products-detail-arigear.html">เสื้อยืด</a></li>
+                                                                    <li><a href="/products-detail-arigear.html">เสื้อโปโล</a></li>
+                                                                    <li><a href="/products-detail-arigear.html">เสื้อฝึกซ้อม</a></li>
+                                                                    <li><a href="/products-detail-arigear.html">เสื้อฮู้ด</a></li>
+                                                                    <li><a href="/products-detail-arigear.html">แจ็คเก็ต</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>

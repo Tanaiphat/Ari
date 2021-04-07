@@ -18653,65 +18653,6 @@ body, html{
     background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-left-icon-hover.svg');
   }
   
-  .compare-block {
-    width: 100%;
-    margin: 15px auto;
-    position: relative;
-    display: block;
-  }
-  .compare-block label {
-    position: relative;
-    min-height: 29px;
-    display: block;
-    padding-left: 33px;
-    margin-bottom: 0;
-    font-weight: normal;
-    cursor: pointer;
-  }
-  .compare-block label:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 4px;
-    width: 19px;
-    height: 19px;
-    transition: transform 0.28s ease;
-    border-radius: 5px;
-    border: 1px solid #fff;
-  }
-  .compare-block .checkmark:after {
-    content: "";
-    display: block;
-    width: 10px;
-    height: 5px;
-    border-bottom: 2px solid #FFBE00;
-    border-left: 2px solid #FFBE00;
-    transform: rotate(-45deg) scale(0);
-    transition: transform ease 0.25s;
-    position: absolute;
-    top: 10px;
-    left: 9px;
-  }
-  .compare-block input[type=checkbox] {
-    width: auto;
-    position: absolute;
-    left: 5px;
-    margin-left: -20px;
-    opacity: 0;
-  }
-  .compare-block input[type=checkbox]:checked ~ label:before {
-    border: 2px solid #FFBE00;
-  }
-  .compare-block input[type=checkbox]:checked ~ .checkmark:after {
-    transform: rotate(-45deg) scale(1);
-  }
-  .compare-block input[type=checkbox]:focus + label::before {
-    outline: 0;
-  }
-  .post-items.-card .compare-block {
-    padding: 9px 0 15px;
-  }
   #splide01-track {
     padding-bottom: 60px;
   }
