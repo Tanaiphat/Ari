@@ -643,7 +643,7 @@ class Header extends HTMLElement {
 
                         <div id="dd-unlogin">
                             <div class="lr-block">
-                                <a href="/login.htm" class="btn-global">เข้าสู่ระบบ</a>
+                                <a href="/login.html" class="btn-global">เข้าสู่ระบบ</a>
                                 <p class="desc-lr">หรือสมัครสมาชิกเพื่อรับ<br/>ส่วนลดและสิทธิพิเศษจากเรา</p>
                                 <a href="/register.html" class="btn-reg">สมัครสมาชิก</a>
                             </div>
@@ -1073,7 +1073,7 @@ class Header extends HTMLElement {
                                 </div>
                             </li>
                             <li id="dd-sales" class="main-dd">
-                                <a href="#">ลดราคา</a>
+                                <a href="/discount.html">ลดราคา</a>
                                 <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
