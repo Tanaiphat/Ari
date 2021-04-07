@@ -393,7 +393,7 @@ class Header extends HTMLElement {
                                 </div>
                             </li>
                             <li id="dd-sales" class="main-dd">
-                                <a href="#">ลดราคา</a>
+                                <a href="/discount.html">ลดราคา</a>
                                 <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
@@ -695,7 +695,7 @@ class Header extends HTMLElement {
                   <div class="nav-menu-block">
                       <ul class="nav-menu">
                           <li id="dd-boots" class="main-dd">
-                            <a href="#">รองเท้าฟุตบอล</a>
+                            <a href="/football-shoes.html">รองเท้าฟุตบอล</a>
                                 <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
@@ -795,7 +795,7 @@ class Header extends HTMLElement {
                                 </div>
                           </li>
                           <li id="dd-keepers" class="main-dd">
-                            <a href="#">อุปกรณ์ผู้รักษาประตู</a>
+                            <a href="/goalkeeper-device.html">อุปกรณ์ผู้รักษาประตู</a>
                             <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
@@ -854,7 +854,7 @@ class Header extends HTMLElement {
                                 </div>
                           </li>
                           <li id="dd-jerseys" class="main-dd">
-                            <a href="#">ชุดแข่ง</a>
+                            <a href="/racing-suit.html">ชุดแข่ง</a>
                             <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
@@ -923,7 +923,7 @@ class Header extends HTMLElement {
                                 </div>
                             </li>
                             <li id="dd-equipments" class="main-dd">
-                                <a href="#">อุปกรณ์ฟุตบอล</a>
+                                <a href="/football-equipment.html">อุปกรณ์ฟุตบอล</a>
                                 <div class="dropdown-content">
                                     <div class="grid-block">
                                         <div class="grid-item -mega-main-menu">
