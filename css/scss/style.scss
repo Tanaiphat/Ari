@@ -20944,3 +20944,25 @@ body, html{
         }
     }
 }
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    .site-header .main-nav .half-nav.top-menu .dt-col.-addon .addon-block {
+        position: relative;
+        display: block;
+    }
+    #dd-unlogin {
+        position: fixed;
+        margin-top: -35px;
+        margin-left: -90px;
+    }
+    .-acc {
+        display: block;
+    }
+    .-acc:hover #dd-unlogin {
+        display: none;
+    }
+    #dd-unlogin:hover {
+        display: block;
+    }
+}}
