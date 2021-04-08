@@ -803,5 +803,11 @@ jQuery(document).ready(function($) {
       $('#c'+next).prev().addClass('collapse');
       $('#c'+next).addClass('collapse');
     });    
-    
+
+    $(".addon-col.-acc").mouseenter(function() {
+      $(this).find("#dd-unlogin").show();
+    });
+    $(".addon-col.-acc #dd-unlogin").mouseleave(function() {
+      $(this).hide();
+    });
 });
