@@ -2042,11 +2042,11 @@ select {
                         width: 100px;
                     }
 
-                    &--prev {
+                    &.--prev {
                         left: 13%;
                     }
 
-                    &--next {
+                    &.--next {
                         right: 13%;
                     }
                 }
@@ -3123,11 +3123,11 @@ footer.main-footer {
                         width: 100px;
                     }
 
-                    &--prev {
+                    &.--prev {
                         left: 13%;
                     }
 
-                    &--next {
+                    &.--next {
                         right: 13%;
                     }
                 }
@@ -3168,11 +3168,11 @@ footer.main-footer {
                             width: 100px;
                         }
 
-                        &--prev {
+                        &.--prev {
                             left: 13%;
                         }
 
-                        &--next {
+                        &.--next {
                             right: 13%;
                         }
                     }
@@ -3696,11 +3696,11 @@ footer.main-footer {
                         width: 100px;
                     }
 
-                    &--prev {
+                    &.--prev {
                         left: 13%;
                     }
 
-                    &--next {
+                    &.--next {
                         right: 13%;
                     }
                 }
@@ -3745,11 +3745,11 @@ footer.main-footer {
                             width: 100px;
                         }
 
-                        &--prev {
+                        &.--prev {
                             left: 13%;
                         }
 
-                        &--next {
+                        &.--next {
                             right: 13%;
                         }
                     }
@@ -4214,7 +4214,7 @@ footer.main-footer {
 					-webkit-box-align: center;
 					-ms-flex-align: center;
 					align-items: center;
-					max-width: 1160px;
+					max-width: 650px;
 					.grid-block {
 						.grid-item {
 							display: -webkit-box;
@@ -4503,9 +4503,6 @@ footer.main-footer {
 						}
 					}
 				}
-			}
-			.title-collection {
-				text-align: center;
 			}
 		}
 	}
@@ -4842,11 +4839,11 @@ footer.main-footer {
 			& > .title-brand {
 				max-width: 1160px;
 				margin: 20px auto 30px;
-				font-size: 26px;
 				font-weight: 500;
-				text-align: center;
+				text-align: left;
 				margin-top: 107px;
 				font-size: 24px;
+                padding-left: 10px;
 			}
 			.title-shirt-premier {
 				font-size: 26px;
@@ -4960,9 +4957,8 @@ footer.main-footer {
 	.title-hot-product {
 		margin-bottom: 26px;
 		font-weight: 500;
-		font-size: 26px;
 		font-size: 24px;
-		text-align: center;
+		text-align: left;
 		margin-bottom: 0 0 34px;
 	}
 	.national-team-section {
@@ -5243,7 +5239,7 @@ footer.main-footer {
 			}
 		}
 		.featured-img-block {
-			max-height: 187px;
+			max-height: 270px;
 		}
 	}
 }
@@ -5272,7 +5268,7 @@ footer.main-footer {
 					-webkit-box-align: center;
 					-ms-flex-align: center;
 					align-items: center;
-					max-width: 1160px;
+					max-width: 650px;
 					.grid-block {
 						.grid-item {
 							display: -webkit-box;
@@ -5474,7 +5470,7 @@ footer.main-footer {
 				}
 			}
 			.title-pro {
-				text-align: center;
+				text-align: left;
 				margin-top: 64px;
 				margin-bottom: 38px;
 			}
@@ -5861,6 +5857,16 @@ footer.main-footer {
 				font-size: 24px;
 				padding-bottom: 13px;
 			}
+            .title-type-eq{
+                max-width: 1160px;
+				margin: 68px auto 20px;
+				font-size: 26px;
+				font-weight: 500;
+				text-align: left;
+				font-size: 24px;
+				padding-bottom: 13px;
+                padding-left: 10px;
+            }
 			.title-shirt-premier {
 				font-size: 26px;
 				margin-bottom: 1rem;
@@ -5930,7 +5936,7 @@ footer.main-footer {
 	.title-hot-product {
 		font-weight: 500;
 		font-size: 26px;
-		text-align: center;
+		text-align: left;
 		margin-bottom: 33px;
 		font-size: 24px;
 	}
@@ -5988,9 +5994,9 @@ footer.main-footer {
 .football-equipment-page #shoes-hot-slider .splide__pagination, .category-uniform #shoes-hot-slider .splide__pagination {
 	display: none;
 }
-.football-equipment-page .pro-section .pro-block .grid-block .grid-item .pro .content-block, .football-equipment-page .pro-section .pro-block .grid-block .grid-item .pro .content-block h4.head-pro {
-	text-align: center;
-}
+// .football-equipment-page .pro-section .pro-block .grid-block .grid-item .pro .content-block, .football-equipment-page .pro-section .pro-block .grid-block .grid-item .pro .content-block h4.head-pro {
+// 	text-align: center;
+// }
 
 
 /* ====================== Discount Page ====================== */
@@ -6094,11 +6100,11 @@ footer.main-footer {
                         width: 100px;
                     }
 
-                    &--prev {
+                    &.--prev {
                         left: 13%;
                     }
 
-                    &--next {
+                    &.--next {
                         right: 13%;
                     }
                 }
@@ -6139,11 +6145,11 @@ footer.main-footer {
                             width: 100px;
                         }
 
-                        &--prev {
+                        &.--prev {
                             left: 13%;
                         }
 
-                        &--next {
+                        &.--next {
                             right: 13%;
                         }
                     }
@@ -7886,11 +7892,11 @@ body, html{
             .product-block{
                 .grid-block{
                     display: flex;
-                    flex-wrap: wrap;
 
                     .grid-item{
                         &.show{
                             &.-side-left{
+                                float: left;
                                 min-width: 290px;
                                 margin-left: 0%;
                                 visibility: visible;
@@ -7898,8 +7904,9 @@ body, html{
                             }
 
                             &.-side-right{
-                                width: 75%;
-                                margin-left: 25%;
+                                float: right;
+                                width: 72%;
+                                margin-left: 0%;
                                 padding-left: 20px;
 
                                 .results-product{
@@ -7913,11 +7920,12 @@ body, html{
                         }
                         
                         &.-side-left{
-                            position: absolute;
+                            position: relative;
                             visibility: hidden;
                             margin-left: -30%;
                             opacity: 0;
                             transition: all .5s linear;
+                            padding-bottom: 5rem;
 
                             .close-btn-mb{
                                 display: none;
@@ -8010,6 +8018,7 @@ body, html{
 
                         &.-side-right{
                             width: 100%;
+                            margin-left: 7.3%;
                             transition: all .5s linear;
 
                             .overlay-mb{
@@ -8179,6 +8188,8 @@ body, html{
                             }
 
                             &.-side-right{
+                                margin-left: -30px;
+
                                 @keyframes fadeIn {
                                     from { opacity: 0; }
                                       to { opacity: 1; }
@@ -16054,13 +16065,13 @@ body, html{
                 #brand-slider {
                     .splide__arrows {
                         position: relative;
-                        margin-top: -3rem;
+                        margin-top: 3rem;
 
                         &.g-container {
-                            max-width: 1000px;
+                            max-width: 880px;
     
                             .splide__arrow--prev {
-                                right: 4rem;
+                                right: .5rem;
                                 left: unset;
                                 background-color: transparent;
 
@@ -18494,7 +18505,7 @@ body, html{
                             width: 100%;
                             
                             &:first-child{
-                                padding-top: 42.35vh;
+                                padding-top: 54vh;
                             }
 
                             &:nth-child(2n+2){
@@ -18617,41 +18628,41 @@ body, html{
     margin-bottom: 14px;
   }
   
-  .splide__arrows .splide__arrow,
-  .splide__arrows .splide__arrow img {
-    width: 48px;
-    height: 40px;
-  }
-  .splide__arrows .splide__arrow,
-  .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow,
-  .owl-nav span {
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: all .3s;
-  }
-  .splide__arrows .splide__arrow.splide__arrow--prev,
-  .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--prev.splide__arrow,
-  .owl-prev > span {
-    background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-left-icon.svg');
-  }
-  .splide__arrows .splide__arrow.splide__arrow--next,
-  .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--next.splide__arrow,
-  .owl-next > span {
-    background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-right-icon.svg');
-  }
-  .splide__arrows .splide__arrow img {
-    visibility: hidden;
-  }
-  .splide__arrows .splide__arrow:hover,
-  .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--prev.splide__arrow:hover,
-  .owl-next > span:hover {
-    background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-right-icon-hover.svg');
-  }
-  .splide__arrows .splide__arrow.splide__arrow--prev:hover,
-  .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--next.splide__arrow:hover,
-  button.owl-prev > span:hover {
-    background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-left-icon-hover.svg');
-  }
+//   .splide__arrows .splide__arrow,
+//   .splide__arrows .splide__arrow img {
+//     width: 48px;
+//     height: 40px;
+//   }
+//   .splide__arrows .splide__arrow,
+//   .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow,
+//   .owl-nav span {
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     transition: all .3s;
+//   }
+//   .splide__arrows .splide__arrow.splide__arrow--prev,
+//   .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--prev.splide__arrow,
+//   .owl-prev > span {
+//     background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-left-icon.svg');
+//   }
+//   .splide__arrows .splide__arrow.splide__arrow--next,
+//   .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--next.splide__arrow,
+//   .owl-next > span {
+//     background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-right-icon.svg');
+//   }
+//   .splide__arrows .splide__arrow img {
+//     visibility: hidden;
+//   }
+//   .splide__arrows .splide__arrow:hover,
+//   .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--prev.splide__arrow:hover,
+//   .owl-next > span:hover {
+//     background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-right-icon-hover.svg');
+//   }
+//   .splide__arrows .splide__arrow.splide__arrow--prev:hover,
+//   .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--next.splide__arrow:hover,
+//   button.owl-prev > span:hover {
+//     background-image: url('/static/version1615962574/frontend/Vision/ari/th_TH/images/slider-arrow-left-icon-hover.svg');
+//   }
   
   #splide01-track {
     padding-bottom: 60px;
@@ -18713,38 +18724,38 @@ body, html{
     display: inline-flex;
   }
   
-  .splide__pagination button.splide__pagination__page,
-  .owl-theme .owl-dots button.owl-dot span {
-      width: 12px;
-      height: 10px;
-      background: url(/static/version1615962574/frontend/Vision/ari/th_TH/js/splidejs/src/pagination-empty.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-  }
-  .splide__pagination button.splide__pagination__page.is-active,
-  .owl-theme .owl-dots button.owl-dot.active span {
-      background: url(/static/version1615962574/frontend/Vision/ari/th_TH/js/splidejs/src/pagination-active.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-  }
-  .splide__pagination button.splide__pagination__page:hover,
-  .owl-theme .owl-dots button.owl-dot:hover span {
-    background: url(/static/version1615962574/frontend/Vision/ari/th_TH/js/splidejs/src/pagination-empty.svg);
-    opacity: .75;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  .splide__pagination button.splide__pagination__page.is-active:hover,
-  .owl-theme .owl-dots button.owl-dot.active:hover span {
-      background: url(/static/version1615962574/frontend/Vision/ari/th_TH/js/splidejs/src/pagination-active.svg);
-      opacity: .75;
-      background-size: contain;
-      background-repeat: no-repeat;
-  }
-  .splide__pagination button.splide__pagination__page::after,
-  .splide__pagination button.splide__pagination__page.is-active::after {
-    content: none;
-  }
+//   .splide__pagination button.splide__pagination__page,
+//   .owl-theme .owl-dots button.owl-dot span {
+//       width: 12px;
+//       height: 10px;
+//       background: url(/static/version1615962574/frontend/Vision/ari/th_TH/js/splidejs/src/pagination-empty.svg);
+//       background-size: contain;
+//       background-repeat: no-repeat;
+//   }
+//   .splide__pagination button.splide__pagination__page.is-active,
+//   .owl-theme .owl-dots button.owl-dot.active span {
+//       background: url(/static/version1615962574/frontend/Vision/ari/th_TH/js/splidejs/src/pagination-active.svg);
+//       background-size: contain;
+//       background-repeat: no-repeat;
+//   }
+//   .splide__pagination button.splide__pagination__page:hover,
+//   .owl-theme .owl-dots button.owl-dot:hover span {
+//     background: url(/static/version1615962574/frontend/Vision/ari/th_TH/js/splidejs/src/pagination-empty.svg);
+//     opacity: .75;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//   }
+//   .splide__pagination button.splide__pagination__page.is-active:hover,
+//   .owl-theme .owl-dots button.owl-dot.active:hover span {
+//       background: url(/static/version1615962574/frontend/Vision/ari/th_TH/js/splidejs/src/pagination-active.svg);
+//       opacity: .75;
+//       background-size: contain;
+//       background-repeat: no-repeat;
+//   }
+//   .splide__pagination button.splide__pagination__page::after,
+//   .splide__pagination button.splide__pagination__page.is-active::after {
+//     content: none;
+//   }
   .product-categories-boots-page .hero-slider-section .splide .splide__arrows .splide__arrow--prev.splide__arrow,
   .mp-banner-slider .owl-nav button.owl-prev span {
     left: 30px;
@@ -18781,9 +18792,9 @@ body, html{
   .category-uniform .hero-slider-section .splide .splide__slide div.overlay {
     display: none !important;
   }
-  .category-uniform .hero-slider-section .splide .splide__slide div.g-container {
-    max-width: calc(100vw - 212px);
-  }
+//   .category-uniform .hero-slider-section .splide .splide__slide div.g-container {
+//     max-width: calc(100vw - 212px);
+//   }
   .category-uniform .hero-slider-section .splide .splide__slide .g-container .grid-block .grid-item h2 {
     font-weight: 600;
     font-size: 32px;
@@ -18830,9 +18841,9 @@ body, html{
   .category-uniform .shirt-premier-section .shirt-premier-block.g-container #shirt-premier-slider div.splide__arrows {
     margin-top: 33px;
   }
-  .splide__arrows button.splide__arrow--next {
-    right: -48px;
-  }
+//   .splide__arrows button.splide__arrow--next {
+//     right: -48px;
+//   }
   .category-uniform .shirt-premier-section .shirt-premier-block.g-container #shirt-premier-slider .splide__arrows.g-container button.splide__arrow--prev,
   .category-uniform .national-team-section .national-team-block.g-container #national-team-slider .splide__arrows.g-container .splide__arrow--prev {
     right: -1px;
@@ -20817,6 +20828,905 @@ body, html{
                     &.-mc1{
                         grid-template-columns: 1fr !important;
                     }
+                }
+            }
+        }
+    }
+}
+
+/* ====================== T-Shirt Page ====================== */
+
+.t-shirt-page {
+    background-color: $secondary-color;
+
+    // T-Shirt Page - Hero Banner //
+
+    .hero-slider-section {
+        .splide {
+            .splide__slide {
+                min-height: 600px;
+
+                .g-container {
+                    max-width: 60vw;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    .grid-block {
+                        .grid-item {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+
+                            h2 {
+                                margin: 0;
+                                margin-top: 10px;
+                                font-size: 26px;
+                                font-family: 'Prachason';
+                            }
+                        }
+                    }
+                }
+
+                &.--slide-01 {
+                    background: url(../images/t-shirt-slider.png) center center;
+                    background-size: cover;
+                }
+
+                &.--slide-02 {
+                    background: url(../images/t-shirt-slider.png) center center;
+                    background-size: cover;
+                }
+
+                &.--slide-03 {
+                    background: url(../images/t-shirt-slider.png) center center;
+                    background-size: cover;
+                }
+
+                h2,
+                img {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                h2 {
+                    font-family: "Agency FB";
+                }
+
+                .btn-border {
+                    border: 1px solid #fff;
+                    width: auto;
+                    display: block;
+                    position: relative;
+                    z-index: 2;
+                    padding: 7px 4rem;
+                    border-radius: 5px;
+                    font-family: "Prachason";
+                    font-size: 16px;
+                    font-weight: normal;
+
+                    &:hover {
+                        background-color: $accent-color;
+                        color: #000;
+                    }
+                }
+
+                .overlay {
+                    display: block !important;
+                    max-width: 60%;
+                    transition: max-height 0.15s ease-out;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    background: linear-gradient(270deg, rgba(22, 22, 22, 0) 0%, rgba(22, 22, 22, 1) 100%);
+                    transition: all height 0.5s ease-in-out;
+                }
+            }
+
+            .splide__arrows {
+                .splide__arrow {
+                    opacity: 1;
+                    background: transparent;
+
+                    .arrow-left {
+                        width: 100px;
+                    }
+
+                    &--prev {
+                        left: 13%;
+                    }
+
+                    &--next {
+                        right: 13%;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 991px) {
+            .splide {
+                .splide__slide {
+                    min-height: 320px;
+
+                    .g-container {
+                        max-width: 1160px;
+                    }
+
+                    &.--slide-01 {
+                        background: url(../images/t-shirt-slider-mb.png) center center;
+                        background-size: cover;
+                    }
+
+                    &.--slide-02 {
+                        background: url(../images/t-shirt-slider-mb.png) center center;
+                        background-size: cover;
+                    }
+
+                    &.--slide-03 {
+                        background: url(../images/t-shirt-slider-mb.png) center center;
+                        background-size: cover;
+                    }
+                }
+
+                .splide__arrows {
+                    .splide__arrow {
+                        opacity: 1;
+                        background: transparent;
+
+                        .arrow-left {
+                            width: 100px;
+                        }
+
+                        &--prev {
+                            left: 13%;
+                        }
+
+                        &--next {
+                            right: 13%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // T-Shirt Page - T-Shirt-Brand //
+
+    .t-shirt-brand-section {
+        padding: 4rem 0;
+
+        .t-shirt-brand-block {
+            .grid-block {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 25px;
+
+                .grid-item {
+                    position: relative;
+
+                    a {
+                        &:hover {
+                            .t-shirt-brand {
+                                .overlay {
+                                    max-height: 100%;
+                                    transition: max-height 0.25s ease-in;
+                                }
+
+                                img {
+                                    margin-bottom: 12rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .t-shirt-brand {
+                        min-height: 400px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        transition: 0.5s;
+
+                        img {
+                            position: relative;
+                            z-index: 1;
+                            margin-bottom: 2rem;
+                            transition: 0.5s;
+                        }
+
+                        a.btn-border{
+                            width: auto;
+                            font-family: 'Prachason';
+                            font-weight: normal;
+                            border: 1px solid $accent-color;
+                            padding: 7px 4rem;
+                            border-radius: 5px;
+
+                            &:hover{
+                                background-color: $accent-color;
+                                color: #000;
+                            }
+                        }
+
+                        &.-t-shirt-brand-01 {
+                            background: url(../images/t-shirt-brand-01.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-t-shirt-brand-02 {
+                            background: url(../images/t-shirt-brand-02.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-t-shirt-brand-03 {
+                            background: url(../images/t-shirt-brand-03.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-t-shirt-brand-04 {
+                            background: url(../images/t-shirt-brand-04.png) center center;
+                            background-size: cover;
+                        }
+
+                        .overlay {
+                            max-height: 40%;
+                            transition: max-height 0.15s ease-out;
+                            height: 100%;
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+                            transition: all height 0.5s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 991px) {
+            padding: 2rem 0;
+
+            .t-shirt-brand-block {
+                .title-t-shirt-brand {
+                    text-align: center;
+                }
+
+                .grid-block {
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+    }
+
+    // T-Shirt Page - Show Product //
+
+    .show-product-section{
+        .show-product-block {
+            .grid-block{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 25px;
+            }
+        }
+
+        .read-more-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn-border{
+                width: auto;
+                padding: 10px 3rem;
+                border: 1px solid $accent-color;
+                border-radius: 5px;
+                font-family: 'Prachason';
+                font-weight: normal;
+
+                &:hover{
+                    background-color: $accent-color;
+                    color: #000;
+                }
+            }
+        }
+
+        @media(max-width: 991px){
+            .show-product-block {
+                .grid-block{
+                    grid-template-columns: 1fr 1fr;
+                    gap: 15px;
+                }
+            }
+        }
+    }
+
+    // T-Shirt Page - Your Style //
+
+    .your-style-section {
+        padding: 4rem 0;
+
+        .your-style-block {
+            .grid-block {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 25px;
+
+                .grid-item {
+                    position: relative;
+
+                    a {
+                        &:hover {
+                            .your-style {
+                                .overlay {
+                                    max-height: 100%;
+                                    transition: max-height 0.25s ease-in;
+                                }
+
+                                h4.head-your-style {
+                                    margin-bottom: 5rem;
+                                    color: $primary-color;
+                                }
+                            }
+                        }
+                    }
+
+                    .your-style {
+                        min-height: 200px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        transition: 0.5s;
+
+                        h4.head-your-style {
+                            width: 100%;
+                            text-align: center;
+                            font-size: 18px;
+                            font-family: "Prachason";
+                            z-index: 1;
+                            margin-bottom: 2rem;
+                            transition: 0.5s;
+                            text-transform: uppercase;
+                            margin: 0;
+                            margin-bottom: 1rem;
+                            position: relative;
+                        }
+
+                        a.btn-border{
+                            width: auto;
+                            font-family: 'Prachason';
+                            font-weight: normal;
+                            border: 1px solid $accent-color;
+                            padding: 7px 4rem;
+                            border-radius: 5px;
+
+                            &:hover{
+                                background-color: $accent-color;
+                                color: #000;
+                            }
+                        }
+
+                        &.-your-style-01 {
+                            background: url(../images/your-style-t-shirt-01.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-your-style-02 {
+                            background: url(../images/your-style-t-shirt-02.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-your-style-03 {
+                            background: url(../images/your-style-t-shirt-03.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-your-style-04 {
+                            background: url(../images/your-style-t-shirt-04.png) center center;
+                            background-size: cover;
+                        }
+
+                        .overlay {
+                            max-height: 40%;
+                            transition: max-height 0.15s ease-out;
+                            height: 100%;
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+                            transition: all height 0.5s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+
+        .read-more-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn-border {
+                display: block;
+                width: auto;
+                border: 1px solid $accent-color;
+                border-radius: 5px;
+                padding: 7px 3rem;
+                font-family: "Prachason";
+                font-size: 16px;
+
+                &:hover {
+                    background-color: $accent-color;
+                    color: #000;
+                }
+            }
+        }
+
+        @media (max-width: 991px) {
+            .your-style-block {
+                .title-your-style{
+                    text-align: center;
+                }
+
+                .grid-block {
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+    }
+}
+
+/* ====================== Ari Gear Page ====================== */
+
+.ari-gear-page {
+    background-color: $secondary-color;
+
+    // Ari Gear Page - Hero Banner //
+
+    .hero-slider-section {
+        .splide {
+            .splide__slide {
+                min-height: 600px;
+
+                .g-container {
+                    max-width: 60vw;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    .grid-block {
+                        .grid-item {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+
+                            h2 {
+                                margin: 0;
+                                margin-top: 10px;
+                                font-size: 26px;
+                                font-family: 'Prachason';
+                            }
+                        }
+                    }
+                }
+
+                &.--slide-01 {
+                    background: url(../images/ari-gear-slider.png) center center;
+                    background-size: cover;
+                }
+
+                &.--slide-02 {
+                    background: url(../images/ari-gear-slider.png) center center;
+                    background-size: cover;
+                }
+
+                &.--slide-03 {
+                    background: url(../images/ari-gear-slider.png) center center;
+                    background-size: cover;
+                }
+
+                h2,
+                img {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                h2 {
+                    font-family: "Agency FB";
+                }
+
+                .btn-border {
+                    border: 1px solid #fff;
+                    width: auto;
+                    display: block;
+                    position: relative;
+                    z-index: 2;
+                    padding: 7px 4rem;
+                    border-radius: 5px;
+                    font-family: "Prachason";
+                    font-size: 16px;
+                    font-weight: normal;
+
+                    &:hover {
+                        background-color: $accent-color;
+                        color: #000;
+                    }
+                }
+
+                .overlay {
+                    display: block !important;
+                    max-width: 60%;
+                    transition: max-height 0.15s ease-out;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    background: linear-gradient(270deg, rgba(22, 22, 22, 0) 0%, rgba(22, 22, 22, 1) 100%);
+                    transition: all height 0.5s ease-in-out;
+                }
+            }
+
+            .splide__arrows {
+                .splide__arrow {
+                    opacity: 1;
+                    background: transparent;
+
+                    .arrow-left {
+                        width: 100px;
+                    }
+
+                    &--prev {
+                        left: 13%;
+                    }
+
+                    &--next {
+                        right: 13%;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 991px) {
+            .splide {
+                .splide__slide {
+                    min-height: 320px;
+
+                    .g-container {
+                        max-width: 1160px;
+                    }
+
+                    &.--slide-01 {
+                        background: url(../images/ari-gear-slider-mb.png) center center;
+                        background-size: cover;
+                    }
+
+                    &.--slide-02 {
+                        background: url(../images/ari-gear-slider-mb.png) center center;
+                        background-size: cover;
+                    }
+
+                    &.--slide-03 {
+                        background: url(../images/ari-gear-slider-mb.png) center center;
+                        background-size: cover;
+                    }
+                }
+
+                .splide__arrows {
+                    .splide__arrow {
+                        opacity: 1;
+                        background: transparent;
+
+                        .arrow-left {
+                            width: 100px;
+                        }
+
+                        &--prev {
+                            left: 13%;
+                        }
+
+                        &--next {
+                            right: 13%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Ari Gear Page - Hot Collection Product //
+
+    .hot-collection-section {
+        padding: 4rem 0;
+
+        .hot-collection-block {
+            .grid-block {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 25px;
+
+                .grid-item {
+                    position: relative;
+
+                    a {
+                        &:hover {
+                            .hot-collection {
+                                .overlay {
+                                    max-height: 100%;
+                                    transition: max-height 0.25s ease-in;
+                                }
+
+                                h4.head-hot-collection {
+                                    margin-bottom: 10rem;
+                                    color: $primary-color;
+                                }
+                            }
+                        }
+                    }
+
+                    .hot-collection {
+                        min-height: 400px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        transition: 0.5s;
+
+                        .content-block {
+                            width: 100%;
+                            position: relative;
+                            z-index: 2;
+                            padding: 35px 30px;
+
+                            h4.head-hot-collection {
+                                width: 100%;
+                                text-align: left;
+                                font-size: 26px;
+                                font-family: "Prachason";
+                                z-index: 1;
+                                margin-bottom: 2rem;
+                                transition: 0.5s;
+                                text-transform: uppercase;
+                                margin: 0;
+                                margin-bottom: 1rem;
+                            }
+
+                            a.btn-border{
+                                width: auto;
+                                font-family: 'Prachason';
+                                font-weight: normal;
+                                border: 1px solid $accent-color;
+                                padding: 7px 4rem;
+                                border-radius: 5px;
+
+                                &:hover{
+                                    background-color: $accent-color;
+                                    color: #000;
+                                }
+                            }
+                        }
+
+                        &.-hot-collection-01 {
+                            background: url(../images/hot-collection-01.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-hot-collection-02 {
+                            background: url(../images/hot-collection-02.png) center center;
+                            background-size: cover;
+                        }
+
+                        .overlay {
+                            max-height: 40%;
+                            transition: max-height 0.15s ease-out;
+                            height: 100%;
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+                            transition: all height 0.5s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 991px) {
+            padding: 2rem 0;
+
+            .hot-collection-block {
+                .title-hot-collection {
+                    text-align: center;
+                }
+
+                .grid-block {
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+    }
+
+    // Ari Gear Page - Your Style //
+
+    .your-style-section {
+        .your-style-block {
+            .grid-block {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 25px;
+
+                .grid-item {
+                    position: relative;
+
+                    a {
+                        &:hover {
+                            .your-style {
+                                .overlay {
+                                    max-height: 100%;
+                                    transition: max-height 0.25s ease-in;
+                                }
+
+                                h4.head-your-style {
+                                    margin-bottom: 5rem;
+                                    color: $primary-color;
+                                }
+                            }
+                        }
+                    }
+
+                    .your-style {
+                        min-height: 200px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        transition: 0.5s;
+
+                        h4.head-your-style {
+                            width: 100%;
+                            text-align: center;
+                            font-size: 18px;
+                            font-family: "Prachason";
+                            z-index: 1;
+                            margin-bottom: 2rem;
+                            transition: 0.5s;
+                            text-transform: uppercase;
+                            margin: 0;
+                            margin-bottom: 1rem;
+                            position: relative;
+                        }
+
+                        a.btn-border{
+                            width: auto;
+                            font-family: 'Prachason';
+                            font-weight: normal;
+                            border: 1px solid $accent-color;
+                            padding: 7px 4rem;
+                            border-radius: 5px;
+
+                            &:hover{
+                                background-color: $accent-color;
+                                color: #000;
+                            }
+                        }
+
+                        &.-your-style-01 {
+                            background: url(../images/your-style-t-shirt-01.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-your-style-02 {
+                            background: url(../images/your-style-t-shirt-02.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-your-style-03 {
+                            background: url(../images/your-style-t-shirt-03.png) center center;
+                            background-size: cover;
+                        }
+
+                        &.-your-style-04 {
+                            background: url(../images/your-style-t-shirt-04.png) center center;
+                            background-size: cover;
+                        }
+
+                        .overlay {
+                            max-height: 40%;
+                            transition: max-height 0.15s ease-out;
+                            height: 100%;
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+                            transition: all height 0.5s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+
+        .read-more-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn-border {
+                display: block;
+                width: auto;
+                border: 1px solid $accent-color;
+                border-radius: 5px;
+                padding: 7px 3rem;
+                font-family: "Prachason";
+                font-size: 16px;
+
+                &:hover {
+                    background-color: $accent-color;
+                    color: #000;
+                }
+            }
+        }
+
+        @media (max-width: 991px) {
+            .your-style-block {
+                .title-your-style{
+                    text-align: center;
+                }
+
+                .grid-block {
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+    }
+
+    // Ari Gear Page - Show Product //
+
+    .show-product-section{
+        padding: 4rem 0;
+        padding-bottom: 7rem;
+
+        .show-product-block {
+            .grid-block{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 25px;
+            }
+        }
+
+        .read-more-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn-border{
+                width: auto;
+                padding: 10px 3rem;
+                border: 1px solid $accent-color;
+                border-radius: 5px;
+                font-family: 'Prachason';
+                font-weight: normal;
+
+                &:hover{
+                    background-color: $accent-color;
+                    color: #000;
+                }
+            }
+        }
+
+        @media(max-width: 991px){
+            padding-top: 2rem;
+
+            .show-product-block {
+                h2{
+                    text-align: center;
+                }
+
+                .grid-block{
+                    grid-template-columns: 1fr 1fr;
+                    gap: 15px;
                 }
             }
         }
